@@ -1,0 +1,111 @@
+/* ================================================= */
+/* =====================Nav=bar===================== */
+/* ================================================= */
+nav {
+    background-color: rgb(0,125,225);
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-radius: 5px;
+    transition: transform 0.5s ease;
+}
+nav:hover {
+    transform: translateY(-5px);
+}
+#right-nav {
+    margin-top: 27px;
+    margin-right: 10px;
+}
+.navclass {
+    text-decoration: none;
+    margin-right: 10px;
+    color: white;
+}
+#navid1:hover {
+    transform: translateY(-5px);
+    transition: ease 0.5s;
+}
+#navid2:hover {
+    transform: translateY(-5px);
+    transition: ease 0.5s;
+}
+/* ================================================= */
+/* --------------------Tracker---------------------- */
+/* ================================================= */
+#tracker {
+    border: black 1px solid;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+#tracker-header {
+    text-align: center;
+}
+#add-subject {
+    margin-left: 47%;
+    padding: 10px 20px;
+    background-color: white;
+    border-radius: 3px;
+    transition: transform 0.5s ease;
+}
+#add-subject:hover {
+    transform: translateY(-5px);
+}
+#win-pop {
+    border: black 1px solid;
+    width: 500px;
+    margin: 0 auto;
+    padding: 10px;
+    display: none;
+}
+#submit {
+    padding: 10px;
+    background: rgb(0,125,225);
+    color: white;
+    margin-left: 38%;
+    margin-top: 10px;
+    border-radius: 3px;
+    border: none;
+    transition: transform 0.5s ease;
+}
+#submit:hover{
+    transform: translateY(-3px);
+    transition: 0.5s
+}
+.inp0t {
+    padding: 10px;
+    border-radius: 5px;
+    width: 400px;
+    transition: transform 0.5s ease;
+}
+.inp0t:focus {
+    border: blue 1px solid;
+}
+.inp0t:hover {
+    transform: translateY(-3px);
+}
+/* ============================================================= */
+/*========================About=Section========================= */
+/* ============================================================= */
+#about {
+    transition: transform 0.5s ease;
+}
+#about:hover {
+    transform: translateY(-5px);
+}
+#about-header {
+    background-color: rgb(0,125,225);
+    width: 150px;
+    height: 40px;
+    padding: 10;
+    border-radius: 5px;
+}
+#about-speech {
+    background-color: rgb(0,125,225);
+    padding: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 5px;
+}
+/* ===================================================== */
+/*------------------------Report------------------------ */
+/*====================================================== */
+
