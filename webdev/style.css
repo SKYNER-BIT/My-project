@@ -56,12 +56,18 @@ nav:hover {
     margin: 0 auto;
     padding: 10px;
     display: none;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-5px);
+    transition: opacity 0.5s ease, transform 0.3s ease;
+}
+form {
+    margin: 0 auto;
 }
 #submit {
     padding: 10px;
     background: rgb(0,125,225);
     color: white;
-    margin-left: 38%;
     margin-top: 10px;
     border-radius: 3px;
     border: none;
